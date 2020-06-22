@@ -1,0 +1,57 @@
+.card {
+    font-size: inherit;
+    height: 200px;
+    width: 200px;
+    margin: 0 auto 45px;
+    text-align: center;
+    border-style: groove;
+    border-radius: inherit;
+    border-color: whitesmoke;
+    background: none;
+    background-repeat: no-repeat;
+  }
+
+  
+  .card .img-container > img {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .card .img-container:hover > img {
+    width: 100%;
+    height: 100%;
+    filter: invert(100%);
+    background-repeat: no-repeat;
+  }
+  
+  .img-container:hover .overlay {
+    bottom: 0;
+    height: 100%;
+    background-repeat: no-repeat;
+  }
+  
+ 
+  
+  .text {
+    font-family: "Merienda", serif;
+    color: white;
+    font-size: inherit;
+    position: absolute;
+    overflow: hidden;
+    top: 50%;
+    left: 50%;
+  }
+
+  .overlay {
+    position: absolute;
+    bottom: 100%;
+    left: 0;
+    right: 0;
+    background-color: #000;
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition: 0.25s ease-in-out;
+    opacity: 0.5;
+    cursor: pointer;
+  }

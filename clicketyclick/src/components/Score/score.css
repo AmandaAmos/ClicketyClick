@@ -1,0 +1,100 @@
+.score {
+    background-color: #ff6f00;
+    margin-bottom: 25px;
+}
+
+#root {
+  background-image: "image(public/images/background.jpg)";
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 10px;
+}
+
+h5,
+h6 {
+  background-color: #E52B50;
+  display: inline;
+  cursor: default;
+}
+
+
+h5:hover {
+  color: #fff;
+  background-color: #000;
+  display: inline;
+}
+
+h6:hover {
+  color: #fff;
+  background-color: #E52B50;
+  display: inline;
+}
+
+.col-left {
+  font-family: "Open Sans Condensed";
+  text-align: left;
+}
+
+.col-right {
+  font-family: "Open Sans Condensed";
+  text-align: right;
+  padding-top: 20px;
+  padding-right: 50px;
+}
+
+.alert-danger {
+  font-family: "Open Sans Condensed";
+  text-transform: uppercase;
+  color: #F5F5DC;
+  background-color: rgba(255, 0, 0, 0.658) !important;
+  cursor: default;
+ }
+
+.alert-danger:hover {
+  color: #F5F5DC;
+  background-color: #000 !important;
+}
+
+.alert-success {
+  font-family: "Merienda";
+  text-transform: uppercase;
+  color: #F5F5DC;
+  background-color:#03C03C !important;
+  cursor: default;
+}
+
+.alert-success:hover {
+  color: #fff;
+  background-color: #008000 !important;
+}
+
+#root {
+  background-image: url("/assets/images/bg-00.png");
+  background-color: #dddddd;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 10px;
+}
+
+.footer {
+  font-family: "Merienda";
+  background-color: #ff6f00;
+  color: #F5F5DC;
+  text-align: right;
+  
+}
+.footer:hover {
+  background-color: #F5F5DC;
+  color:rgba(255, 0, 0, 0.658);
+}
+.footer a {
+  color: #F5F5DC;
+}
+.footer a:hover {
+  color: rgba(255, 0, 0, 0.658);
+}
+
+
