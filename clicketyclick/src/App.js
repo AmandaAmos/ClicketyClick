@@ -78,33 +78,39 @@ class App extends Component {
   render() {
     return (
       <div className="container">
-        <div className="alert alert-dark" role="alert"
-        style={{ border: this.state.showAlert }}>
-          You've already smelled this rose, choose again.
-        </div>
-        <div className="alert alert-success"
-        style={{ border: this.state.showSuccess}}>
-          Keep going!  
-          You haven't clicked on duplicates!
-        </div>
+      
         <Score
-          title="Roses clicketyclick Game"
+          title="Roses clicky Game"
           score={this.state.score}
-          topScore={this.state.topScore}/>
+          topScore={this.state.topScore}
+        />
+        
         <div className="row">
-          {this.state.roses.map(roses => (
+          {this.state.roses.map((roses) => (
             <Card
               key={roses.id}
               id={roses.id}
               variety={roses.variety}
               image={roses.image}
-              clickedImage={this.clickedImage}/>
+              clickedImage={this.clickedImage}
+            />
           ))}
+
+          <div
+            className="alert alert-dark"
+            style={{ opacity: this.state.showAlert }}
+          >
+            You've already smelled this rose, choose again.
+          </div>
+          <div
+            className="alert alert-success" 
+            style={{ opacity: this.state.showSuccess }}
+          >
+            Keep going! You haven't clicked on duplicates!
+          </div>
         </div>
       </div>
-
     );
   }
-  
 }
 export default App;

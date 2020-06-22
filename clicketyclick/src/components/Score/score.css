@@ -1,100 +1,115 @@
 .score {
-    background-color: #ff6f00;
-    margin-bottom: 25px;
+  background-color: #FF1493;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-family: "Merienda";
 }
 
+.header {
+  font-family: "Merienda";
+  font-weight: bold;
+}
 #root {
   background-image: "image(public/images/background.jpg)";
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   margin-bottom: 10px;
+
 }
 
-h5,
+h4 {
+  font-style: bold;
+  text-align: center;
+  color: #98FB98;
+  font-weight: bolder;
+  font-size: xx-large;
+}
 h6 {
-  background-color: #E52B50;
-  display: inline;
+  font-style: bold;
+  display: block;
   cursor: default;
+  font-family: "Merienda";
+  color: antiquewhite;
 }
 
-
-h5:hover {
-  color: #fff;
-  background-color: #000;
+h4:hover {
+  color: #f5f5dc;
+  background-color: #e52b50;
   display: inline;
 }
 
 h6:hover {
-  color: #fff;
-  background-color: #E52B50;
+  color: #f5f5dc;
+  background-color: #e52b50;
   display: inline;
+}
+
+#tagline {
+    text-align: center !important;
+    padding-bottom: 10px !important;
+    font-size: xx-large !important;
+    text-emphasis: bold !important;
 }
 
 .col-left {
   font-family: "Open Sans Condensed";
   text-align: left;
+  padding-left: 10px;
 }
 
 .col-right {
   font-family: "Open Sans Condensed";
   text-align: right;
-  padding-top: 20px;
-  padding-right: 50px;
+  padding-top: 10px;
+  padding-right: inherit;
 }
 
 .alert-danger {
   font-family: "Open Sans Condensed";
   text-transform: uppercase;
-  color: #F5F5DC;
+  color: #f5f5dc;
   background-color: rgba(255, 0, 0, 0.658) !important;
   cursor: default;
- }
+}
 
 .alert-danger:hover {
-  color: #F5F5DC;
+  color: #f5f5dc;
   background-color: #000 !important;
 }
 
 .alert-success {
   font-family: "Merienda";
   text-transform: uppercase;
-  color: #F5F5DC;
-  background-color:#03C03C !important;
+  color: #f5f5dc;
+  background-color: #03c03c !important;
   cursor: default;
 }
 
 .alert-success:hover {
-  color: #fff;
+  color: #f5f5dc;
   background-color: #008000 !important;
 }
 
-#root {
-  background-image: url("/assets/images/bg-00.png");
-  background-color: #dddddd;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  margin-bottom: 10px;
-}
 
 .footer {
   font-family: "Merienda";
-  background-color: #ff6f00;
-  color: #F5F5DC;
-  text-align: right;
-  
+  background-color: #0000FF;
+  color: #f5f5dc;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-bottom: 25px;
 }
 .footer:hover {
-  background-color: #F5F5DC;
-  color:rgba(255, 0, 0, 0.658);
+  background-color: #f5f5dc;
+  color: #DC143C;
 }
 .footer a {
-  color: #F5F5DC;
+  color: #f5f5dc;
 }
 .footer a:hover {
-  color: rgba(255, 0, 0, 0.658);
+  color:#DC143C;
 }
-
-
