@@ -13,7 +13,7 @@
     },
     {
         "id":3,
-        "image": "/images/Iceberg-rose.jpg",
+        "image": "/assets/images/Iceberg-rose.jpg",
         "variety": "Iceberg"
     },
     {
@@ -28,37 +28,37 @@
     },
     {
         "id":6,
-        "image": "/images/Louis-Philippe.jpg",
+        "image": "/assets/images/Louis-Philippe.jpg",
         "variety": "Louis Philippe"
     },
     {
         "id":7,
-        "image": "/images/Princess-Alexandra-of-Kent.jpg",
+        "image": "assets/images/Princess-Alexandra-of-Kent.jpg",
         "variety": "Princess Alexandra of Kent"
     },
     {
         "id":8,
-        "image": "/images/Rosa-Charles-de-Mills.jpg",
+        "image": "assets/images/Rosa-Charles-de-Mills.jpg",
         "variety":"Charles de Mills"
     },
     {
         "id":9,
-        "image": "/images/Rosa-Duchesse-de-Brabant.jpg",
+        "image": "assets/images/Rosa-Duchesse-de-Brabant.jpg",
         "variety":"Duchesse de Brabant"
     },
     {
         "id":10,
-        "image": "/images/Rosa-Flower-Carpet-Scarlet.jpg",
+        "image": "assets/images/Rosa-Flower-Carpet-Scarlet.jpg",
         "variety":"Flower Carpet Scarlet"
     },
     {
         "id":11,
-        "image": "/images/Rosa-Madame-Isaac-Pereire.jpg",
+        "image": "assets/images/Rosa-Madame-Isaac-Pereire.jpg",
         "variety": "Madame Isaac Pereire"
     },
     {
         "id":12,
-        "image": "public/images/Rosa-Milkmaid.jpg",
+        "image": "assets/images/Rosa-Milkmaid.jpg",
         "variety":"Milkmaid"
     }
 ]

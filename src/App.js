@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 //import { Route } from "react-dom";
-import roses from "./cards.json";
+import cards from "./cards.json";
 import Card from "./components/Card";
 import Score from "./components/Score";
 
@@ -16,7 +16,7 @@ function shuffle(array) {
 
 class App extends Component {
   state = {
-    roses,
+    cards,
     score: 0,
     topScore: 0,
     showAlert: 0,
@@ -72,7 +72,7 @@ class App extends Component {
 
   //shuffle images
   makeShuffle = () => {
-    this.setState({ roses: shuffle(roses) });
+    this.setState({ roses: shuffle(cards) });
   };
 
   //render time!
@@ -87,12 +87,12 @@ class App extends Component {
         />
         
         <div className="row">
-          {this.state.roses.map((roses) => (
+          {this.state.cards.map((cards) => (
             <Card
-              key={roses.id}
-              id={roses.id}
-              variety={roses.variety}
-              image={roses.image}
+              key={cards.id}
+              id={cards.id}
+              variety={cards.variety}
+              img={cards.image}
               clickedImage={this.clickedImage}
             />
           ))}
