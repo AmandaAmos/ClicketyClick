@@ -13,6 +13,7 @@ function shuffle(array) {
   return array;
 }
 
+
 class App extends Component {
   state = {
     roses,

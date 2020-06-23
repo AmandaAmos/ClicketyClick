@@ -1,57 +1,59 @@
+
+
 [
     {
         "id":1,
-        "image": "public/images/Cherry-Parfait-rose.jpg",
+        "image": "/images/Cherry-Parfait-rose.jpg",
         "variety":"Cherry Parfait"
     },
     {
         "id":2,
-        "image": "public/images/Flower-Carpet-Amber.jpg",
+        "image": "/images/Flower-Carpet-Amber.jpg",
         "variety": "Flower Carpet Amber"
     },
     {
         "id":3,
-        "image": "public/images/Iceberg-rose.jpg",
+        "image": "/images/Iceberg-rose.jpg",
         "variety": "Iceberg"
     },
     {
         "id":4,
-        "image": "public/images/Julia-child-rose.jpg",
+        "image": "/assets/images/Julia-child-rose.jpg",
         "variety": "Julia Child"
     },
     {
         "id":5,
-        "image": "public/images/Lady-Emma-Hamilton-rose.jpg",
+        "image": "/assets/images/Lady-Emma-Hamilton-rose.jpg",
         "variety": "Lady Emma Hamilton"
     },
     {
         "id":6,
-        "image": "public/images/Louis-Philippe.jpg",
+        "image": "/images/Louis-Philippe.jpg",
         "variety": "Louis Philippe"
     },
     {
         "id":7,
-        "image": "public/images/Princess-Alexandra-of-Kent.jpg",
+        "image": "/images/Princess-Alexandra-of-Kent.jpg",
         "variety": "Princess Alexandra of Kent"
     },
     {
         "id":8,
-        "image": "public/images/Rosa-Charles-de-Mills.jpg",
+        "image": "/images/Rosa-Charles-de-Mills.jpg",
         "variety":"Charles de Mills"
     },
     {
         "id":9,
-        "image": "public/images/Rosa-Duchesse-de-Brabant.jpg",
+        "image": "/images/Rosa-Duchesse-de-Brabant.jpg",
         "variety":"Duchesse de Brabant"
     },
     {
         "id":10,
-        "image": "public/images/Rosa-Flower-Carpet-Scarlet.jpg",
+        "image": "/images/Rosa-Flower-Carpet-Scarlet.jpg",
         "variety":"Flower Carpet Scarlet"
     },
     {
         "id":11,
-        "image": "public/images/Rosa-Madame-Isaac-Pereire.jpg",
+        "image": "/images/Rosa-Madame-Isaac-Pereire.jpg",
         "variety": "Madame Isaac Pereire"
     },
     {
@@ -60,3 +62,4 @@
         "variety":"Milkmaid"
     }
 ]
+
