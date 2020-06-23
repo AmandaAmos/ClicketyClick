@@ -6,12 +6,16 @@ Don't click the same rose twice!
 In this memory game, the player clicks on a different variety each time.  The player wins when they get up to 12.  Each time they click a duplicate picture, the score resets. 
 
 ## Technologies
-**Mongo/Mongoose
-**Express
-**React
-**Node
+**Mongo/Mongoose**
+<br />
+**Express**
+<br />
+**React**
+<br />
+**Node**
+<br/>
 
-**Bootstrap
+**Bootstrap**
 <br />
 
 
