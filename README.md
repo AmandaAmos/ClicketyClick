@@ -19,8 +19,10 @@ In this memory game, the player clicks on a different variety each time.  The pl
 <br />
 
 
- **Don't click twice or you'll get an alert!
+ **Don't click twice or you'll get an alert!**
 
-**Click all of the Roses one time each and you win! 
+**Click all of the Roses one time each and you win! **
+
+Created for UA Full Stack Web Development BootCamp
 
 
