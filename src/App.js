@@ -13,7 +13,6 @@ function shuffle(array) {
   return array;
 }
 
-
 class App extends Component {
   state = {
     cards,
@@ -79,13 +78,12 @@ class App extends Component {
   render() {
     return (
       <div className="container">
-      
         <Score
           title="Roses clicky Game"
           score={this.state.score}
           topScore={this.state.topScore}
         />
-        
+
         <div className="row">
           {this.state.cards.map((cards) => (
             <Card
@@ -104,10 +102,10 @@ class App extends Component {
             You've already smelled this rose, choose again.
           </div>
           <div
-            className="alert alert-success" 
+            className="alert alert-success"
             style={{ opacity: this.state.showSuccess }}
           >
-            Keep going! You haven't clicked on duplicates!
+            Congratulations! Click to play again.
           </div>
         </div>
       </div>

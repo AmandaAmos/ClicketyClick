@@ -3,12 +3,12 @@
 [
     {
         "id":1,
-        "image": "/images/Cherry-Parfait-rose.jpg",
+        "image": "/assets/images/Cherry-Parfait-rose.jpg",
         "variety":"Cherry Parfait"
     },
     {
         "id":2,
-        "image": "/images/Flower-Carpet-Amber.jpg",
+        "image": "/assets/images/Flower-Carpet-Amber.jpg",
         "variety": "Flower Carpet Amber"
     },
     {
@@ -33,32 +33,32 @@
     },
     {
         "id":7,
-        "image": "assets/images/Princess-Alexandra-of-Kent.jpg",
+        "image": "/assets/images/Princess-Alexandra-of-Kent.jpg",
         "variety": "Princess Alexandra of Kent"
     },
     {
         "id":8,
-        "image": "assets/images/Rosa-Charles-de-Mills.jpg",
+        "image": "/assets/images/Rosa-Charles-de-Mills.jpg",
         "variety":"Charles de Mills"
     },
     {
         "id":9,
-        "image": "assets/images/Rosa-Duchesse-de-Brabant.jpg",
+        "image": "/assets/images/Rosa-Duchesse-de-Brabant.jpg",
         "variety":"Duchesse de Brabant"
     },
     {
         "id":10,
-        "image": "assets/images/Rosa-Flower-Carpet-Scarlet.jpg",
+        "image": "/assets/images/Rosa-Flower-Carpet-Scarlet.jpg",
         "variety":"Flower Carpet Scarlet"
     },
     {
         "id":11,
-        "image": "assets/images/Rosa-Madame-Isaac-Pereire.jpg",
+        "image": "/assets/images/Rosa-Madame-Isaac-Pereire.jpg",
         "variety": "Madame Isaac Pereire"
     },
     {
         "id":12,
-        "image": "assets/images/Rosa-Milkmaid.jpg",
+        "image": "/assets/images/Rosa-Milkmaid.jpg",
         "variety":"Milkmaid"
     }
 ]
