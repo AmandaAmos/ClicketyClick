@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "5df264cd612b7d292c41e0cc51989353",
+    "revision": "57e85388fc984bfc85809c865e311ce8",
     "url": "/ClicketyClick/index.html"
   },
   {
-    "revision": "fdf5d9bac99f17b7e0ef",
-    "url": "/ClicketyClick/static/css/main.cc086bbd.chunk.css"
+    "revision": "2e5761643b667b3def7e",
+    "url": "/ClicketyClick/static/css/main.e89959fe.chunk.css"
   },
   {
     "revision": "1352616663ea628cc890",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/ClicketyClick/static/js/2.23f36dfe.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "fdf5d9bac99f17b7e0ef",
-    "url": "/ClicketyClick/static/js/main.2689a369.chunk.js"
+    "revision": "2e5761643b667b3def7e",
+    "url": "/ClicketyClick/static/js/main.71abe701.chunk.js"
   },
   {
     "revision": "323cb824e823aa2875d0",
